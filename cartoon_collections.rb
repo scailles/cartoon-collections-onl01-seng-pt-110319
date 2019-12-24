@@ -29,4 +29,4 @@ cheese_types = ["cheddar", "gouda", "camembert"]
  result= snacks.find{|chiz| chiz.include?(cheese_types)}
  puts "#{result}.to_s"
 end
-end
+
