@@ -30,4 +30,4 @@ cheese_types = ["cheddar", "gouda", "camembert"]
  end
  puts "#{result.to_s}"
 end
-
+end
