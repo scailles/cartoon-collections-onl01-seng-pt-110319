@@ -27,5 +27,7 @@ end
 def find_the_cheese(snacks)
 cheese_types = ["cheddar", "gouda", "camembert"]
  result= snacks.find{|chiz| chiz.include?(cheese_types)}
+ end
+ puts "#{result.to_s}"
 end
 
